@@ -1,0 +1,357 @@
+*{   
+    margin: 0;   
+    padding: 0;   
+    box-sizing: border-box;   
+}   
+ 
+body{   
+    height: 100vh;   
+} 
+ 
+.main{   
+    height: 100%;   
+    display: grid;   
+    object-position: center;   
+} 
+ 
+.container{   
+width: 85%;   
+height: auto;   
+margin: auto;   
+display: flex;   
+justify-content: space-between;   
+align-items: center;   
+position: relative;
+top: 65px;
+}    
+ 
+.container .display-cards{   
+    width: 50%;   
+    height: 100%;  
+    padding: 1em 0;  
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}   
+  
+.cardtext1{  
+    margin: 1em auto;  
+    width: 80%;  
+    height: 100%;  
+    display: flex;  
+    flex-direction: column;  
+    justify-content: space-between;  
+    position: relative; 
+    bottom: 20px; 
+}  
+   
+    .head{   
+        display: flex; 
+        position: relative; 
+        bottom: 40px;   
+    }   
+ 
+    .headicon{   
+        width: 13%;   
+    } 
+ 
+    .headicon img{   
+    width: 40px;   
+    height: 40px;   
+    border-radius: 5px;   
+    }   
+ 
+    .headtext{   
+        margin-top: -2px;   
+    } 
+ 
+    .headtext .bhead p{   
+        font-size: 24px;   
+    } 
+ 
+    .headtext .bhead p mark{   
+        color: orange;   
+        background: none;   
+    } 
+ 
+    .headtext .shead small{   
+    font-size: 8px;   
+    color: rgb(151, 141, 141);   
+       
+    }  
+ 
+    .card{   
+        background-color: white;    
+        margin: 1em 0;  
+    }  
+ 
+    .card1{   
+        display: flex;   
+        height: 126px;   
+        gap: 1em;       
+    }   
+ 
+    .card .card1 .cardimg{   
+        width: 174px;   
+    } 
+       
+    .card .card1 .cardimg img{   
+        width: 130px;   
+        height: 85px;   
+        border-radius: 7px;   
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;   
+    }   
+ 
+    .card1 .cardtext{   
+        height: 110px;   
+        width: 360px;   
+        padding-top: 10px;   
+    }   
+       
+    .card1 .cardtext .cardtextstep{    
+        padding-top: 2px;   
+        padding-bottom: 2px;   
+        font-size: 12px;   
+        color: rgb(95, 79, 79);   
+    }   
+ 
+    .card1 .cardtext .cardtexthead{   
+        font-size: 12px;    
+        padding-top: 2px;   
+        padding-bottom: 2px;   
+    }   
+ 
+    .card1 .cardtext .cardtextpara{    
+        padding-top: 2px;   
+        padding-bottom: 2px;   
+        width: 180px;   
+        font-size: 12px;   
+        color: rgb(134, 148, 148);   
+    }   
+     
+    img{    
+    margin-left: 20px;   
+    margin-top: 2px;   
+    }   
+ 
+    .card2 .cardtext{   
+        height: 110px;   
+        width: 360px;   
+        padding-top: 10px;   
+    } 
+ 
+    .card2{   
+        display: flex;   
+        height: 126px;   
+        gap: 1em;  
+    } 
+ 
+    .card .card2 .cardimg{   
+        width: 174px;   
+    } 
+ 
+    .card .card2 .cardimg img{   
+        width: 130px;   
+        height: 85px;   
+        border-radius: 7px;   
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;   
+    }   
+       
+    .card2 .cardtext .cardtextstep{   
+        padding-top: 2px;   
+        padding-bottom: 2px;   
+        font-size: 12px;   
+        color: rgb(95, 79, 79);   
+    }   
+ 
+    .card2 .cardtext .cardtexthead{     
+        padding-top: 2px;   
+        padding-bottom: 2px;   
+        font-size: 12px;   
+    } 
+ 
+    .card2 .cardtext .cardtextpara{     
+        padding-top: 2px;   
+        padding-bottom: 2px;   
+        font-size: 12px;   
+        width: 180px;   
+        color: rgb(134, 148, 148);   
+    }   
+ 
+    .card3 .cardtext{   
+        width: 360px;   
+        padding-top: 10px;   
+    }   
+ 
+    .card3{   
+        display: flex;   
+     gap: 1em;  
+    }   
+ 
+    .card .card3 .cardimg{   
+        width: 174px;   
+    }   
+ 
+    .card .card3 .cardimg img{   
+        width: 130px;   
+        height: 85px;   
+        border-radius: 7px;   
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; 
+    }   
+       
+    .card3 .cardtext .cardtextstep{     
+        padding-top: 2px;   
+        padding-bottom: 2px;   
+        font-size: 12px;   
+        color: rgb(95, 79, 79);   
+    }.card3 .cardtext .cardtexthead{   
+        padding-top: 2px;   
+        padding-bottom: 2px;   
+        font-size: 12px;   
+    }   
+ 
+    .card3 .cardtext .cardtextpara{   
+        padding-top: 2px;   
+        padding-bottom: 2px;   
+        font-size: 12px;   
+        width: 210px;   
+        color: rgb(134, 148, 148);   
+    }   
+       
+    /* //////////////////////////////////////// */   
+    .container .form{   
+        width: 50%;  
+        padding: 1em 0;  
+        position: relative; 
+        left: 15px; 
+    }   
+ 
+    .loginpage{   
+        height: 100%;   
+     }  
+ 
+     .pagepadding{   
+        width: 80%;   
+        height: 100%;   
+        margin: 0 auto;   
+        padding: 1.5em 2rem;   
+        background-color: white;   
+        border-radius: 8px;   
+       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  
+       border:1px ridge #1d1a1a37;      
+     }   
+ 
+     .page{   
+    width: 100%;   
+    height: 100%;   
+     }   
+ 
+     .backlogin{   
+        display: flex;   
+     } 
+ 
+    .backlogin a{   
+        font-weight: 560;  
+        text-decoration: none;   
+        color: rgb(42, 142, 189);   
+        font-size: 14px;  
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    } 
+ 
+    .backlogin p{   
+        margin: auto 0;   
+        color: rgb(122, 132, 133);  
+    } 
+ 
+    .backlogin span{   
+    padding-right: 6px;   
+    color: rgb(82, 77, 77);  
+    } 
+ 
+    .headlogin h2{   
+        margin-top: 46px;   
+        margin-bottom: 25px;  
+        font-family:Verdana, Geneva, Tahoma, sans-serif; 
+        color: rgb(27, 26, 26);  
+    } 
+    .headlogin img{ 
+        width: 140px; 
+        height: auto; 
+        position: relative; 
+        right: 15px; 
+        top: 25px; 
+ 
+    }  
+    .headlogin p{   
+    font-size: 13px;   
+    color: grey;   
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    position: relative;  
+    margin-top: 10px; 
+    } 
+ 
+.button1{   
+    color: white;   
+    font-weight: 500;   
+    font-size: .8rem;   
+    background-color:  #E05206;  
+    padding: 1em 2.5em;   
+    border: none;   
+    border-radius:50px;  
+    position: relative; 
+    top: 40px; 
+     margin-bottom: 100px; 
+}  
+ 
+/* /////////////// */  
+  
+@media(max-width:767px){  
+    .container{  
+        flex-direction: column;  
+        margin: 
+        0;  
+        padding: 0;  
+        
+    }  
+.container .display-cards{  
+    width: 100%;  
+}  
+    .container .form{  
+        width: 100%;  
+    }  
+    .button1{  
+        font-size: .7rem;  
+    }  
+}  
+@media(max-width:920px){  
+    .container{  
+        flex-direction: column;  
+        margin: 0;  
+        padding: 0;     
+    }  
+ 
+    .container .display-cards{  
+        width: 100%;  
+    }  
+    .container .form{  
+        width: 100%;  
+    }  
+    .headtext{ 
+        position: relative; 
+        left: 10px; 
+    } 
+    .head{ 
+        position: relative; 
+        top: 15px; 
+    } 
+    .input-field3{   
+        padding: 10px 2px;   
+      }   
+} 
+/* //////// */ 
+@media(max-width:1122px){ 
+    .button1{   
+       font-size: .7rem; 
+          
+    }   
+ }
